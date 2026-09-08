@@ -1,6 +1,6 @@
 ---
 import path from "node:path";
-import Discussion from "../../components/Discussion.svelte";
+import GiscusComments from "../../components/GiscusComments.svelte";
 import License from "@components/misc/License.astro";
 import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "@i18n/i18nKey";
@@ -134,5 +134,11 @@ const jsonLd = {
         </a>
     </div>
 
-    <Discussion slug={entry.slug} client:only="svelte" />
+    <GiscusComments
+        repo={import.meta.env.PUBLIC_GISCUS_REPO || "nuuwbiie/personal-blog"}
+        repoId={import.meta.env.PUBLIC_GISCUS_REPO_ID || ""}
+        category={import.meta.env.PUBLIC_GISCUS_CATEGORY || "Komentar Blog"}
+        categoryId={import.meta.env.PUBLIC_GISCUS_CATEGORY_ID || ""}
+        client:only="svelte"
+    />
 </MainGridLayout>
