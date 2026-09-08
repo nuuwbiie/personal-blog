@@ -1,4 +1,4 @@
-# Ruang Catatan
+# nuu's Journal
 
 <!-- impeccable:product-schema 1 -->
 
@@ -12,4 +12,4 @@ Personal blog readers browse articles and projects, then use their GitHub accoun
 Astro + Fuwari + Tailwind; static deployment with Cloudflare Git integration. GitHub Markdown is the content source of truth. Giscus and GitHub Discussions store reader interactions. Preserve Fuwari search, RSS, taxonomy, theme and responsive layout.
 
 ## Brand commitments
-Preserve the existing Fuwari visual system. Neutral identity placeholders are explicitly authorized. Ruang Catatan is the temporary name; Indonesian is the inferred copy language. No personal biography or project achievements have been supplied.
+Preserve the existing Fuwari visual system. The public identity is nuu's Journal, written by Nuu (GitHub: nuuwbiie). Indonesian is the primary copy language. Keep biographical claims limited to information supplied or directly evidenced by this project.

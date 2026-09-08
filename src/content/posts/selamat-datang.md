@@ -1,7 +1,7 @@
 ---
-title: Selamat datang di Ruang Catatan
+title: Selamat datang di nuu's Journal
 published: 2026-09-08
-description: Sebuah tempat untuk mencatat ide, berbagi proses, dan belajar bersama.
+description: Jurnal kecil Nuu untuk mencatat ide, proses, dan hal-hal yang sedang dipelajari.
 tags: [Catatan]
 category: Jurnal
 draft: false
@@ -11,7 +11,7 @@ lang: id
 
 Tidak semua ide harus langsung menjadi sesuatu yang besar. Kadang, cukup dimulai dari sebuah catatan.
 
-Ruang ini dibuat untuk menyimpan hal-hal yang layak diingat: pertanyaan, proses belajar, dan cerita di balik sesuatu yang sedang dikerjakan.
+Jurnal ini kubuat untuk menyimpan hal-hal yang layak diingat: pertanyaan, proses belajar, eksperimen web, dan cerita di balik sesuatu yang sedang kukerjakan.
 
 ## Jelajahi ruang ini
 
