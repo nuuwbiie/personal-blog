@@ -20,9 +20,10 @@ const postsCollection = defineCollection({
 	}),
 });
 const specCollection = defineCollection({
-	schema: z.object({}),
+	schema: z.object({ title: z.string(), description: z.string() }),
 });
 export const collections = {
 	posts: postsCollection,
 	spec: specCollection,
+ projects: defineCollection({schema: z.object({title:z.string().min(1),description:z.string().default(""),status:z.enum(["Aktif","Selesai","Arsip"]).default("Aktif"),url:z.string().url().refine(v=>/^https?:/.test(v)).optional(),order:z.number().default(0),draft:z.boolean().default(false)})}),
 };

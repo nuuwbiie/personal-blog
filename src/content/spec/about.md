@@ -1,9 +1,15 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+---
+title: Tentang ruang ini
+description: Tempat untuk menyimpan catatan, ide, dan perjalanan belajar.
+---
+# Tentang ruang ini
 
-::github{repo="saicaca/fuwari"}
+Ruang Catatan adalah tempat untuk menyimpan ide, hal-hal yang dipelajari, dan proses di balik sebuah karya.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+## Apa yang bisa ditemukan di sini?
+
+Catatan yang bisa dibaca pelan-pelan, proyek yang sedang dikerjakan, serta percakapan di bawah setiap tulisan.
+
+## Mari berdiskusi
+
+Punya sudut pandang lain? Tinggalkan komentar pada tulisan yang menarik perhatianmu. Jaga percakapan tetap ramah dan hindari membagikan informasi pribadi.

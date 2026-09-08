@@ -1,0 +1,21 @@
+---
+import {getCollection} from "astro:content";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import Markdown from "../components/misc/Markdown.astro";
+const projects=(await getCollection("projects",({data})=>!data.draft)).sort((a,b)=>a.data.order-b.data.order);
+const rendered=await Promise.all(projects.map(async project=>({project,...await project.render()})));
+---
+<MainGridLayout title="Projects" description="Karya dan proyek yang sedang dikerjakan.">
+ <section class="card-base p-6 md:p-9 text-black/90 dark:text-white/90">
+  <h1 class="text-3xl font-bold mb-3">Projects</h1>
+  <p class="mb-8">Karya, eksperimen, dan proses belajar yang dibagikan di sini.</p>
+  {rendered.length === 0 && <p>Belum ada proyek yang dibagikan. Nantikan kabar berikutnya.</p>}
+  {rendered.map(({project,Content})=><article class="py-6 border-t border-[var(--line-divider)]">
+   <h2 class="text-2xl font-bold mb-2">{project.data.title}</h2>
+   <p class="text-sm mb-3">{project.data.status}</p>
+   <p class="mb-4">{project.data.description}</p>
+   <Markdown class="project-content"><Content /></Markdown>
+   {project.data.url && <a class="inline-flex mt-4 underline underline-offset-4 text-[var(--primary)]" href={project.data.url} rel="noopener noreferrer">Kunjungi proyek<span class="sr-only">: {project.data.title}</span></a>}
+  </article>)}
+ </section>
+</MainGridLayout>
