@@ -1,10 +1,8 @@
 {
 	"origins": [
-		"https://journal.nuuwbiie.my.id",
-		"https://ruang-catatan.pages.dev"
+		"https://journal.nuuwbiie.my.id"
 	],
 	"originsRegex": [
-		"^https://[a-z0-9-]+\\.ruang-catatan\\.pages\\.dev$",
 		"^http://localhost:[0-9]+$",
 		"^http://127\\.0\\.0\\.1:[0-9]+$"
 	],
