@@ -2,7 +2,7 @@
 title: nuu's Journal
 description: Blog personal Nuu untuk artikel, proyek, dan percakapan.
 status: Aktif
-url: https://ruang-catatan.pages.dev/
+url: https://journal.nuuwbiie.my.id/
 order: 1
 draft: false
 ---

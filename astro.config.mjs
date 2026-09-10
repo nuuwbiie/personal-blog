@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: process.env.PUBLIC_SITE_URL || "https://ruang-catatan.pages.dev/",
+	site: process.env.PUBLIC_SITE_URL || "https://journal.nuuwbiie.my.id/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
